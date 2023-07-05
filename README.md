@@ -15,3 +15,5 @@ possible components:
 - first-class support for [network simulation](https://sled.rs/simulation.html)
 - automatic consensus group formation & healing based on gossip and network coordinates
 - a database engine native to the replicated state machine abstraction [notes](/notes/replicated-log-structuring.md).
+- parallelizable actors-model concurrency backed by raft state machines. by seperating "query" message processing from "command" state updates,
+  should be possible to get great horizontal scalability
