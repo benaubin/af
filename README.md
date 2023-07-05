@@ -11,7 +11,7 @@ this is, of course, not straightforward to do! but hopefully by creating strong 
 
 things that we probably need:
 
-- gossip-based membership detection
-- network coordinates
-- scalable consensus mechansim, with support for rolling updates of nodes
+- [gossip-based membership detection](/notes/gossip.md)
+- scalable consensus mechanism, with support for rolling updates of nodes. one proposal: [deconstructed raft](/notes/log-storage.md)
 - first-class support for [network simulation](https://sled.rs/simulation.html)
+- automatic consensus group formation & healing based on gossip and network coordinates
