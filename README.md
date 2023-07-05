@@ -17,3 +17,6 @@ possible components:
 - a database engine native to the replicated state machine abstraction [notes](/notes/replicated-log-structuring.md).
 - parallelizable actors-model concurrency backed by raft state machines. by seperating "query" message processing from "command" state updates,
   should be possible to get great horizontal scalability
+
+all of these notes are currently in draft form... i'm following a practice of "work in public", but that does mean this work is probably very
+bad at first! there are likely to be mistakes and ommissions, and at present I may be missing relevant work available in the research community.
