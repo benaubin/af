@@ -1,4 +1,4 @@
-# af: anti-fragile systems toolkit
+# notes on anti-fragile systems
 
 collection of ideas for building anti-fragile systems (distributed systems that tolerate failures and self-heal).
 
